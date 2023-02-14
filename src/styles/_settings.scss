@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/PublicSans-Medium.ttf);
+}
+
+$font-1: "font-1";
+
+$color-1: #61dafb;
+$color-2: salmon;
+$color-3: #34282c;
+$white: rgb(255, 255, 255);
+$red : rgb(255,0,0);
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #11151D;
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #ffffff;
+  height: 90vh;
+}
+
+
+header {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif ;
+  text-align: left;
+  background-color: #222D41;
+  color: #b5d5da;
+  height: 1.8cm;
+  padding: 0.5em;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+section {
+  background-color: #ffffff;
+  color: #333;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  text-align: center;
+  background-color: #b5d5da;
+  color: #fff;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+nav {
+  display: block;
+  justify-content: space-between;
+  }
+  
+  ul {
+  list-style: none;
+  display: flex;
+  margin: 10;
+  padding: 10;
+  }
+  
+  li {
+  margin-right: 2em;
+  }
+
+  a {
+    color: #5C6C73;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    border: 2px solid #5C6C73;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  a:hover {
+    color: #E0FCFC;
+    background-color: #11151D;
+  }
+  
+  a:active {
+    transform: translateY(2px);
+  }
+  
+  img {
+    width: 80%;
+    
+    .image{
+      position: relative;
+    }
+    
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    
+    .image-container:hover .text-overlay {
+      opacity: 1;
+    }
+    
+  }
+
+  
+   
