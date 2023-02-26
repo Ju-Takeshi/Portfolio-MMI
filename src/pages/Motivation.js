@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Motivation = () => {
   return (
@@ -12,10 +12,6 @@ const Motivation = () => {
             </li>
           </ul>
         </nav>
-        <Route path="/motivationpdf" component={() => { 
-          window.location.href = './motivationpdf.pdf';
-          return null;
-        }}/>
       </div>
     </Router>
   );
@@ -24,7 +20,7 @@ const Motivation = () => {
 
 export default Motivation;
 
-const routes = [ { path: "/motivation", label: "lettre de motivation"}];
+const routes = [ { path: "./motivationlemal", label: "Lettre de motivation"}];
 
 const header = document.querySelector("header");
 const nav = document.createElement("nav");
@@ -33,7 +29,8 @@ const ul = document.createElement("ul");
 routes.forEach(route => {
   const li = document.createElement("li");
   const a = document.createElement("a");
-  a.href = route.path;
+  a.href = "./motivationlemal.pdf";
+  a.target= "_blank";
   a.textContent = route.label;
   li.appendChild(a);
   ul.appendChild(li);

@@ -11,7 +11,7 @@ const Cvjulienlemal = () => {
 
 export default Cvjulienlemal;
 
-const routes = [ { path: "/cvjulienlemal", label: "cv"}];
+const routes = [ { path: "/cvlemaljulien,", label: "CV"}];
 
 const header = document.querySelector("header");
 const nav = document.createElement("nav");
@@ -20,7 +20,8 @@ const ul = document.createElement("ul");
 routes.forEach(route => {
   const li = document.createElement("li");
   const a = document.createElement("a");
-  a.href = route.path;
+  a.href = "./cvlemaljulien.pdf";
+  a.target= "_blank";
   a.textContent = route.label;
   li.appendChild(a);
   ul.appendChild(li);

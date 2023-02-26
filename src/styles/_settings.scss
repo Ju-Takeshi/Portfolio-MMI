@@ -18,11 +18,12 @@ $red : rgb(255,0,0);
 }
 
 body {
+  width: 99.5%;
   background-color: #11151D;
   font-family: Arial, Helvetica, sans-serif ;
   color: #ffffff;
-  height: 90vh;
-}
+  
+  }
 
 
 header {
@@ -33,11 +34,26 @@ header {
   color: #b5d5da;
   height: 1.8cm;
   padding: 0.5em;
-
+  border-radius: 10px 10px 10px 10px;
 }
 
-main {
+.footer-icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.footer-icons > * {
+  align-items: center;
+  margin: 50px;
+  height: 90%;
+}
+
+
+main {
+  display: block;
   justify-content: center;
   align-items: center;
   height: 10vh;
@@ -51,14 +67,9 @@ section {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-footer {
-  text-align: center;
-  background-color: #b5d5da;
-  color: #fff;
-  padding: 1em;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+img {
+  display: auto;
+  width: 90%
 }
 
 nav {
@@ -100,30 +111,27 @@ nav {
     transform: translateY(2px);
   }
   
-  img {
-    width: 80%;
-    
-    .image{
-      position: relative;
-    }
-    
-    .text-overlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 24px;
-      text-align: center;
-      opacity: 0;
-      transition: opacity 0.5s;
-    }
-    
-    .image-container:hover .text-overlay {
-      opacity: 1;
-    }
-    
-  }
+/* Largeur de la barre de défilement */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Couleur de fond de la barre de défilement */
+::-webkit-scrollbar-track {
+  background-color: #7A90A4;
+}
+
+/* Couleur de la poignée de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background-color: #B8CBD0;
+  border-radius: 5px;
+}
+
+/* Couleur de la poignée de la barre de défilement au survol */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #B8CBD0;
+}
+
 
   
    

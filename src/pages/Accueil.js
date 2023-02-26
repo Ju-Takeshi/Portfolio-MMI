@@ -1,56 +1,47 @@
 import React from "react";
+import Lml from "./Lml";
+import Footer from "./Footer";
+
 
 const Accueil = () => {
-return(
-      <div>
-        <h1
-          style={{
-            fontSize: "35px",
-            wordSpacing: "1px",
-            width: "860px",
-            float: "left",
-            marginTop: "65px",
-            marginLeft: "70px"
-          }}
-        >
-            Bienvenue sur mon portfolio ! Je m'apelle Julien. Je souhaites reprendre mes études à l'iut de Lens.</h1>
-           <div>
-            <p
-              style={{
-                fontSize: "18px",
-                wordSpacing: "1px",
-                width: "860px",
-                float: "left",
-                marginTop: "1px",
-                marginRight: "150px",
-                marginLeft: "70px",
-                lineHeight: "25px"
-               }}
-            >
-                L'informatique et la technologie ont toujours été une certaines partie de moi.<br></br> 
-                Oui, en effet je suis passionné par ces domaines. Issu d'un BAC Sciences et Technologies de l'Industrie et du Developpement Durable, j'ai l'intention de reprendre les études plus précisément en BUT informatique,
-                car cette formation m'intéresse énormément. Il y a beaucoup de choses à découvrir, je sais pertinament que le developpement web saura m'épanouir !
-              </p>
-              <p
-                style={{
-                  fontSize: "18px",
-                  wordSpacing: "1px",
-                  width: "860px",
-                  float: "left",
-                  marginTop: "1px",
-                  marginRight: "150px",
-                  marginLeft: "70px",
-                  lineHeight: "25px"
-                }}
-              >
-                Je vous remercie d'ores et déjà pour votre visite sur ma page web portfolio et vous souhaites une bonne lecture !
-              </p>
-            </div>
-          </div>
-        );
-    };
+  return (
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop:"10px"  }}>
+      <h1 style={{ display: "flex", wordSpacing: "2px", color:"#7A90A4", marginLeft: "30px"}}>
+        Bienvenue sur mon portfolio ! Je m'apelle Julien et je souhaites reprendre mes études à l'IUT de Lens.
+      </h1>
+      <div style={{ maxWidth: "1600px"}}>
+      <p style={{display: "flex", fontSize: "28px", wordSpacing: "2px", color:"#B8CBD0", marginLeft: "30px"}}>
+          L'informatique et la technologie ont toujours été une certaines partie de moi.<br /> 
+          Oui, en effet je suis passionné par ces domaines. Issu d'un BAC Sciences et Technologies de l'Industrie et du Developpement Durable, j'ai l'intention de reprendre les études plus précisément en BUT informatique,
+          car cette formation m'intéresse énormément. Il y a beaucoup de choses à découvrir, je sais pertinament que le developpement web saura m'épanouir !
+        </p>
+        <p style={{fontSize: "28px", wordSpacing: "2px", color:"#B8CBD0", marginLeft: "30px"}}>
+          Je vous remercie d'ores et déjà pour votre visite sur ma page web portfolio et vous souhaites une bonne lecture !
+        </p>
+      </div>
+      <div 
+        style={{ display: "flex", width:"26%"}}>
+        <Lml />
+      </div>
+      <footer 
+        style={{
+          backgroundColor: "#222D41", /* couleur de fond du footer */
+          color: "#fff", /* couleur du texte */
+          textAlign: "center", /* alignement du texte au centre */
+          position: "fixed", /* fixe le footer en bas de la page */
+          left: 0,
+          bottom: 0,
+          width: "100%", /* largeur totale du footer */
+          height: "90px"
+        }}>
+          <Footer/>
+      </footer>
+    </div>
+  );
+};
 
 export default Accueil;
+
 
 const routes = [ { path: "/home", label: "Accueil"}];
 

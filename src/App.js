@@ -12,10 +12,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/accueil" element={<Accueil />} />
-        <Route path="/motivation" element={<Motivation />} />
-        <Route path="/myproject" element={<Myproject />} />
-        <Route path="/cvjulienlemal" element={<Cvjulienlemal />} />
         <Route path='/jpo' element={<Jpo />} />
+        <Route path="/myproject" element={<Myproject />} />
         {/* path="*" fonctionne si jamais l'url ne correspond à rien du site en question. */}
         <Route path="*" element={<Home />} />
       </Routes>
