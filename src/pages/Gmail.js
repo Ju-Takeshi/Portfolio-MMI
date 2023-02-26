@@ -6,7 +6,7 @@ const Gmail = () => {
   const body = "Contenu du message";
 
   return (
-    <a href={`mailto:${email}?subject=${subject}&body=${body}`} target="_blank" rel="noreferrer">
+    <a href={`https://mail.google.com/mail/u/0/?fs=1&to=lemalpro513@gmail.com&su=Objet&body=Message&tf=cm`} target="_blank" rel="noreferrer">
       <img src="gmaillogo.png" alt="mon gmail" width="40" height="40" />  
     </a>
   );
