@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 const Myproject = () => {
     return (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -24,9 +25,14 @@ const Myproject = () => {
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                 <h1 style={{textDecoration: "underline", color:"#7A90A4" }}>
-                     Viser le master </h1>
+                      Un rôle majeur</h1>
                 <p style={{fontSize: "25px", wordSpacing: "2px", color:"#B8CBD0", maxWidth: "1000px", alignItems: "center"}}>
-                     Une fois mes 3 ans d'études au sein de l'iut d </p>
+                     En effet cette formation est importante pour moi pour plusieurs points : </p>
+                <h2 style={{ textDecoration: "underline", color:"#7A90A4" }}>
+                    Faire de ma passion un métier </h2>    
+                <p style={{fontSize: "25px", wordSpacing: "2px", color:"#B8CBD0", maxWidth: "1000px", alignItems: "center"}}>
+                    Dans une vie le travaille représente une grande partie de celle-ci, j'estime donc qu'il est normal de vouloir s'épanouir dans sa vie professionnel. </p>
+                    
             </div>
         </div>
     );
