@@ -37,18 +37,20 @@ header {
   border-radius: 10px 10px 10px 10px;
 }
 
+
 .footer-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 45px;
-  margin-top: 20px;
+  height: 5vh;
+  margin-top: 2vh;
 }
 
 .footer-icons > * {
+  display: flex;
   align-items: center;
-  margin: 50px;
-  height: 90%;
+  margin: 2vw;
+  height: 70%;
 }
 
 
@@ -133,5 +135,5 @@ nav {
 }
 
 
-  
+
    
