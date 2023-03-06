@@ -5,7 +5,6 @@ import Instalogo from "./Instalogo";
 
 function Footer() {
     return (
-        <footer>
         <div className="footer">
             <div className="footer-icons">
                 <Gmail />
@@ -13,7 +12,6 @@ function Footer() {
                 <Instalogo />
             </div>
         </div>
-        </footer>
     )
 
 }
