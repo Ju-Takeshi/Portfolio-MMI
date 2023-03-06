@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 const Accueil = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop:"10px"  }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", minHeight: "90vh" }}>
       <h1 style={{ display: "flex", wordSpacing: "2px", color:"#7A90A4", marginLeft: "30px"}}>
         Bienvenue sur mon portfolio ! Je m'apelle Julien et je souhaites reprendre mes études à l'IUT de Lens.
       </h1>
@@ -20,22 +20,24 @@ const Accueil = () => {
         </p>
       </div>
       <div 
-        style={{ display: "flex", width:"26%"}}>
+        style={{ display: "flex", width:"50vh",}}>
         <Lml />
       </div>
       <footer 
-        style={{
-          backgroundColor: "#222D41", /* couleur de fond du footer */
-          color: "#fff", /* couleur du texte */
-          textAlign: "center", /* alignement du texte au centre */
-          position: "fixed", /* fixe le footer en bas de la page */
-          left: 0,
-          bottom: 0,
-          width: "100%", /* largeur totale du footer */
-          height: "90px"
-        }}>
-          <Footer/>
-      </footer>
+  style={{
+    backgroundColor: "#222D41",
+    color: "#fff",
+    textAlign: "center",
+    position: "fixed",
+    left: 0,
+    bottom: 0,
+    width: "100%",
+    height: "9vh" /* Utilisation de l'unité de mesure "vh" pour que la hauteur soit relative à la hauteur de la fenêtre */
+  }}
+>
+  <Footer/>
+</footer>
+
     </div>
   );
 };
