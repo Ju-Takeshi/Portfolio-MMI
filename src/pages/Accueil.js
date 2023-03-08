@@ -25,7 +25,7 @@ const Accueil = () => {
       </div>
       <footer 
   style={{
-    backgroundColor: "#222D41",
+    backgroundColor: "#313332",
     color: "#fff",
     textAlign: "center",
     position: "fixed",
