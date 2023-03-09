@@ -23,9 +23,9 @@ const Myproject = () => {
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                 <h1 style={{textDecoration: "underline", color:"#7A90A4" }}>
-                      Un rôle majeur</h1>
+                    Un rôle majeur</h1>
                 <p style={{fontSize: "25px", wordSpacing: "2px", color:"#B8CBD0", maxWidth: "1000px", alignItems: "center"}}>
-                     En effet cette formation est importante pour moi pour plusieurs points : </p>
+                    Cette formation est importante pour moi pour plusieurs points : </p>
                 <h2 style={{ textDecoration: "underline", color:"#7A90A4" }}>
                     Faire de ma passion un métier </h2>    
                 <p style={{fontSize: "25px", wordSpacing: "2px", color:"#B8CBD0", maxWidth: "1000px", alignItems: "center"}}>
