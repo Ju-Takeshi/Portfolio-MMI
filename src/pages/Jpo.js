@@ -7,7 +7,7 @@ import Imagegroupe from "./Photodegroupe";
 const Jpo = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <h1 style={{ textDecoration: "underline", color: '#a41514'}}>
+      <h1 style={{ textDecoration: "underline", color: '#ff0000'}}>
         Ma journée aux portes ouvertes de l'iut de Lens !
       </h1>
       <div style={{ maxWidth: "1000px"}}>
@@ -22,7 +22,7 @@ const Jpo = () => {
         <Imagegroupe />
       </div>
       <div style={{ maxWidth: "1000px", }}>
-        <h1 style={{ textDecoration: "underline", color: '#a41514', display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <h1 style={{ textDecoration: "underline", color: '#ff0000', display: "flex", flexDirection: "column", alignItems: "center" }}>
           Mon ressenti
         </h1>
         <p style={{fontSize: "25px", wordSpacing: "2px", color:"#white"}}>
