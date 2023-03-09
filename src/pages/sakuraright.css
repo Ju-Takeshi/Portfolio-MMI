@@ -1,0 +1,10 @@
+.sakura-right {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+    transform: translateX(12%);
+    width: 30%;
+    height: 30%;
+  
+  }
