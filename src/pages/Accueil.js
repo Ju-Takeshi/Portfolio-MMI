@@ -3,16 +3,17 @@ import Lml from "./Lml";
 import Footer from "./Footer";
 import Sakuraright from "./Sakuraright";
 import Sakuraleft from "./Sakuraleft";
+import Welcomeneon from "./Welcomeneon";
 
 
 const Accueil = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", minHeight: "85vh" }}>
-      <h1 style={{ display: "flex", wordSpacing: "2px", color:"#a41514"}}>
-        Bienvenue sur mon portfolio. 
+      <h1 style={{ display: "flex", wordSpacing: "2px", color:"#a41514", marginTop: "-10px"}}>
+        <Welcomeneon/>
       </h1>
       <div style={{ maxWidth: "1600px"}}>
-      <p style={{display: "flex", fontSize: "25px", wordSpacing: "2px", color:"#white", marginLeft: "30px"}}>
+      <p style={{display: "flex", fontSize: "25px", wordSpacing: "2px", color:"#white", marginLeft: "30px", marginTop: "-10px"}}>
           Le design et l'informatique ont toujours été une certaines partie de moi.<br /> 
           En effet je suis passionné par ces domaines. Issu d'un BAC Sciences et Technologies de l'Industrie et du Developpement Durable, j'ai l'intention de reprendre les études plus précisément en BUT Métiers du Multimédia et de l'Internet,
           car cette formation m'intéresse énormément. Il y a beaucoup de choses à découvrir, je sais pertinament que cette formation saura m'épanouir !
