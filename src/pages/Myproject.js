@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Myproject = () => {
     return (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -12,7 +13,7 @@ const Myproject = () => {
                      }}>
                 
                  Mon projet pour les années à venir ! 
-            </h1>
+            </h1>            
             <p style={{fontSize: "25px", wordSpacing: "2px", color:"#B8CBD0", maxWidth: "1000px", alignItems: "center"}}>
                 Il est important pour moi de vous faire part de mon projet pour les années à venir si je suis accepté à l'IUT de Lens.<br></br>
             </p>
