@@ -1,0 +1,10 @@
+.sakura-left {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+    transform: translateX(0%);
+    width: 30%;
+    height: 30%;
+  
+  }
