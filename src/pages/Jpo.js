@@ -7,11 +7,11 @@ import Imagegroupe from "./Photodegroupe";
 const Jpo = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <h1 style={{ textDecoration: "underline", color: '#D2D2D2'}}>
+      <h1 style={{ textDecoration: "underline", color: '#a41514'}}>
         Ma journée aux portes ouvertes de l'iut de Lens !
       </h1>
       <div style={{ maxWidth: "1000px"}}>
-        <p style={{fontSize: "25px", wordSpacing: "2px", color:"#D2D2D2"}}>
+        <p style={{fontSize: "25px", wordSpacing: "2px", color:"#white"}}>
           Le 4 février j'ai eu la chance de pouvoir découvrir l'IUT de Lens !<br></br>
           Ce jour-là, les membres du club Japon m'ont offert un accueil plus que chaleureux en m'invitant à participer aux activités mises en place par leur propre soin.<br></br>
           J'ai également eu le droit à une présentation de l'établissement plus précisément la partie BUT / MMI mais aussi à plusieurs rencontres avec : Mme. Membre , Mr. Condotta , Mme. Saillot.<br></br>   
@@ -22,10 +22,10 @@ const Jpo = () => {
         <Imagegroupe />
       </div>
       <div style={{ maxWidth: "1000px", }}>
-        <h1 style={{ textDecoration: "underline", color: '#D2D2D2', display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <h1 style={{ textDecoration: "underline", color: '#a41514', display: "flex", flexDirection: "column", alignItems: "center" }}>
           Mon ressenti
         </h1>
-        <p style={{fontSize: "25px", wordSpacing: "2px", color:"#D2D2D2"}}>
+        <p style={{fontSize: "25px", wordSpacing: "2px", color:"#white"}}>
           Si je devais donner mon avis concernant cette journée, je pense très certainement que je dirai que ce fut une journée porte ouverte très surprenante dû à sa qualité d'accueil mais aussi de renseignements.<br></br>
           Les rencontres que j'ai pu faire m'ont données encore plus envie d'être l'un des étudiants en BUT informatique de l'iut de Lens.<br></br> 
           Car pour moi la qualité d'un établissement scolaire vient des professeurs mais également des élèves. Il n'y a rien de plus important qu'un entourage sain.<br></br>
