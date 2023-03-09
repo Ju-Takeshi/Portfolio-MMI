@@ -19,7 +19,7 @@ $red : rgb(255,0,0);
 
 body {
   width: 99.5%;
-  background-color: #232322;
+  background-color: #212121;
   font-family: Arial, Helvetica, sans-serif ;
   color: #ffffff;
   
@@ -30,8 +30,8 @@ header {
   display: flex;
   font-family: Arial, Helvetica, sans-serif ;
   text-align: left;
-  background-color: #313332;
-  color: #D2D2D2;
+  background-color: #a41514;
+  color: #ffffff;
   height: 1.8cm;
   padding: 0.5em;
   border-radius: 10px 10px 10px 10px;
@@ -91,7 +91,7 @@ nav {
   }
 
   a {
-    color: #f3f9fc;
+    color: #ffffff;
     text-decoration: none;
     font-size: 17px;
     font-family: Arial, sans-serif;
@@ -105,9 +105,9 @@ nav {
   }
   
   a:hover {
-    color: #FAC900;
-    background-color: #1F1F1F;
-    border-color: #FFEA2C;
+    color: #ffffff;
+    background-color: #1f1f1f;
+    border-color: #ffffff;
   }
   
   a:active {
@@ -122,18 +122,18 @@ nav {
 
 /* Couleur de fond de la barre de défilement */
 ::-webkit-scrollbar-track {
-  background-color: #313332;
+  background-color: #ffffff;
 }
 
 /* Couleur de la poignée de la barre de défilement */
 ::-webkit-scrollbar-thumb {
-  background-color: #1F1F1F;
+  background-color: #4f0002;
   border-radius: 5px;
 }
 
 /* Couleur de la poignée de la barre de défilement au survol */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #FAC900;
+  background-color: #a41514;
 }
 
 
