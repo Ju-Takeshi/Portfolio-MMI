@@ -1,8 +1,9 @@
 .welcome-neon{
     color: #ff0000;
-    font-size: 60%;
+    font-size: 0.5em;
     text-shadow: 0 0 5px #fff, 0 0 2px #fff, 0 0 1px #fff, 0 0 6px #ff0000, 0 0 6px #ff0000;
     animation: neon 2.5s linear infinite;
+    margin-top: 2.5vh;
   }
   
   @keyframes neon {
