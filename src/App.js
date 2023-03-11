@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Accueil';
 import Cvjulienlemal from './pages/Cvjulienlemal';
 import Motivation from './pages/Motivation';
-import Myproject from './pages/Myproject';
 import Accueil from './pages/Accueil';
 import Jpo from './pages/Jpo';
 
@@ -13,7 +12,6 @@ const App = () => {
       <Routes>
         <Route path="/accueil" element={<Accueil />} />
         <Route path='/jpo' element={<Jpo />} />
-        <Route path="/myproject" element={<Myproject />} />
         {/* path="*" fonctionne si jamais l'url ne correspond à rien du site en question. */}
         <Route path="*" element={<Home />} />
       </Routes>
