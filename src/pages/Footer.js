@@ -9,7 +9,6 @@ function Footer() {
             <div className="footer-icons">
                 <Gmail />
                 <Gitlogo />
-                <Instalogo />
             </div>
         </div>
     )
