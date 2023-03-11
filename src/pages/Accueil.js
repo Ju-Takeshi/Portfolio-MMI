@@ -12,13 +12,13 @@ const Accueil = () => {
       <h1 style={{ display: "flex", wordSpacing: "2pw", color:"#a41514", marginTop: "-3vh"}}>
         <Welcomeneon/>
       </h1>
-      <div style={{ maxWidth: "1600px"}}>
-      <p style={{display: "flex", fontSize: "25px", wordSpacing: "2px", color:"#white", marginLeft: "5vw", marginTop: "0vh"}}>
+      <div style={{ maxWidth: "1700px"}}>
+      <p style={{display: "flex", fontSize: "25px", wordSpacing: "2px", color:"#white", marginLeft: "6vw", marginTop: "0vh"}}>
           Le design et l'informatique ont toujours été une certaines partie de moi.<br /> 
           En effet je suis passionné par ces domaines. Issu d'un BAC Sciences et Technologies de l'Industrie et du Developpement Durable, j'ai l'intention de reprendre les études plus précisément en BUT Métiers du Multimédia et de l'Internet,
           car cette formation m'intéresse énormément. Il y a beaucoup de choses à découvrir, je sais pertinament que cette formation saura m'épanouir !
         </p>
-        <p style={{fontSize: "25px", wordSpacing: "2px", color:"#white", marginLeft: "5vw"}}>
+        <p style={{fontSize: "25px", wordSpacing: "2px", color:"#white", marginLeft: "6vw"}}>
           Je vous remercie d'ores et déjà pour votre visite sur ma page web portfolio et vous souhaites une bonne lecture !
         </p>
       </div>
