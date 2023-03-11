@@ -11,9 +11,6 @@ const Navigation = () => {
                <NavLink to="/jpoiutdelens" className={(nav) => (nav.isActive ? "nav-active" : "" )}>
                     <li>Experience portes ouvertes</li>
                 </NavLink> 
-               <NavLink to="/cvjulienlemal" className={(nav) => (nav.isActive ? "nav-active" : "" )}>
-                    <li>cv</li>
-                </NavLink> 
                <NavLink to="/myproject" className={(nav) => (nav.isActive ? "nav-active" : "" )}>
                     <li>mon projet</li>
                 </NavLink> 
